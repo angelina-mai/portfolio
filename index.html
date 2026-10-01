@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Angelina Mai's portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+    <!-- Used <header> because it introduces my portfolio and provides a brief overview of my background -->
+    <header>
+    <div class="header-content">
+        <h1>Angelina Mai</h1>
+    </div>
+</header>
+    <!-- Used <nav> because these links provide the main way visitors move between sections of my portfolio. -->
+<nav>
+    <a href="#intro">Introduction</a>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+    <main>
+
+        <section id="intro" class="intro">
+        <div class="intro-text">
+            <p class="eyebrow">HELLO, I'M</p>
+            <h2>Angelina Mai</h2>
+            <h3>Computer Science Student</h3>
+
+            <p>
+                I love the creative side of technology and use
+                web programming and UI/UX design to bring my
+                passion for art to life.
+            </p>
+
+            <a href="#projects" class="intro-button">View My Work</a>
+        </div>
+
+        <div class="intro-visual">
+            <div class="intro-box back-box"></div>
+            <div class="intro-box front-box">
+                <span>Creative<br>Technology</span>
+            </div>
+        </div>
+    </section>
+
+      <section id="about" class="about-section">
+
+    <!-- Used a section to organize my personal introduction separately from my projects and skills. -->
+    <div class="about-content">
+        <p class="eyebrow">GET TO KNOW ME</p>
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science student who loves the creative
+            side of technology. I use web programming and UI/UX
+            design to bring my passion for art to life.
+        </p>
+
+        <p>
+            I enjoy combining technical skills with creativity to
+            create websites and digital experiences that are both
+            functional and visually engaging.
+        </p>
+
+        <h3>What I Work With</h3>
+
+        <!-- Used <dl> here because I am defining and describing the technologies I use. -->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Used to structure webpages.</dd>
+
+            <dt>CSS</dt>
+            <dd>Used to style and design webpages.</dd>
+
+            <dt>Java</dt>
+            <dd>Used for programming and software development.</dd>
+        </dl>
+    </div>
+
+    <div class="about-visual">
+        <div class="about-box about-back"></div>
+
+        <div class="about-box about-front">
+            <span>Design<br>&amp; Code</span>
+        </div>
+    </div>
+
+</section>
+
+    <section id="skills" class="skills-section">
+
+    <div class="section-heading">
+        <p class="eyebrow">WHAT I KNOW</p>
+        <h2>Skills</h2>
+    </div>
+
+    <div class="skills-box">
+
+        <div class="skill-column">
+            <h3>Web Development</h3>
+
+            
+            <ul>
+                <li>Web Development
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+
+                <li>Programming
+                    <ol>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Erlang</li>
+                        <li>Clojure</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div class="skill-column">
+            <h3>Creative Skills</h3>
+
+            <ul>
+                <li>Touch designer</li>
+                <li>Digital Art</li>
+                <li>Procreate</li>
+                <li>Canva</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="projects" class="projects-section">
+
+    <div class="section-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Projects</h2>
+        <p>
+            A collection of my programming and creative work.
+        </p>
+    </div>
+
+    <div class="portfolio-category">
+        <h3>Programming Portfolio</h3>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-image programming-image">
+                    <span>WEB</span>
+                </div>
+
+                <div class="project-info">
+                    <h4>Personal Portfolio</h4>
+                    <p>
+                        A responsive portfolio website created using
+                        HTML and CSS.
+                    </p>
+                    <span class="project-tag">HTML &amp; CSS</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image programming-image">
+                    <span>WEB APP</span>
+                </div>
+
+                <div class="project-info">
+                    <h4>Schedule Builder</h4>
+                    <p>
+                        A web application designed to help students
+                        organize their university courses.
+                    </p>
+                    <span class="project-tag">Web Development</span>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="project-table">
+            <h4>Project Details</h4>
+            <!-- Used a nested table here to organize each project's technology and year. -->
+            <table border="1">
+                <tr>
+                    <th>Project</th>
+                    <th>Details</th>
+                </tr>
+
+                <tr>
+                    <td>Personal Portfolio</td>
+
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <th>Technology</th>
+                                <th>Year</th>
+                            </tr>
+
+                            <tr>
+                                <td>HTML &amp; CSS</td>
+                                <td>2026</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Schedule Builder</td>
+
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <th>Technology</th>
+                                <th>Year</th>
+                            </tr>
+
+                            <tr>
+                                <td>HTML, CSS &amp; JavaScript</td>
+                                <td>2026</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="portfolio-category art-category">
+        <h3>Art Portfolio</h3>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-image art-image">
+                    <span>DIGITAL ART</span>
+                </div>
+
+                <div class="project-info">
+                    <h4>Digital Illustration</h4>
+                    <p>
+                        A collection of digital artwork exploring
+                        colour, composition, and visual storytelling.
+                    </p>
+                    <span class="project-tag">Illustration</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image art-image">
+                    <span>DESIGN</span>
+                </div>
+
+                <div class="project-info">
+                    <h4>Creative Design</h4>
+                    <p>
+                        Visual design work inspired by my interest
+                        in art and digital media.
+                    </p>
+                    <span class="project-tag">Visual Design</span>
+                </div>
+            </article>
+
+        </div>
+    </div>
+
+</section>
+
+   <section id="contact" class="contact-section">
+
+    <div class="contact-intro">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's Connect</h2>
+
+        <p>
+            Have a project idea, creative collaboration, or just want
+            to say hello? Feel free to reach out.
+        </p>
+
+        <div class="contact-details">
+            <p><strong>Email</strong><br>
+                angelinattmai@gmail.com
+            </p>
+
+            <p><strong>LinkedIn</strong><br>
+                <a href="https://www.linkedin.com/in/angelina-mai-190041386/?isSelfProfile=true">
+                    Angelina Mai
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <form class="contact-form">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Programming Interests</legend>
+
+            <label for="level">Experience Level</label>
+
+            <select id="level" name="level">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+         <p class="form-label">Programming Skills</p>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="html" name="skills" value="html">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" name="skills" value="css">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="java" name="skills" value="java">
+                <label for="java">Java</label>
+
+                <input type="checkbox" id="python" name="skills" value="python">
+                <label for="python">Python</label>
+
+                <input type="checkbox" id="javascript" name="skills" value="javascript">
+                <label for="javascript">JavaScript</label>
+            </div>
+
+            <p class="form-label">Preferred Project Type</p>
+
+            <div class="radio-group">
+                <input type="radio" id="web" name="project" value="web">
+                <label for="web">Web Development</label>
+
+                <input type="radio" id="software" name="project" value="software">
+                <label for="software">Software Development</label>
+            </div>
+
+        </fieldset>
+
+        <div class="form-buttons">
+            <button type="submit">Send Message</button>
+            <button type="reset">Reset</button>
+        </div>
+        </form>
+    
+    </section>
+
+    </main>
+
+    <footer class="site-footer">
+    <div>
+        <h3>Angelina Mai</h3>
+        <p>Computer Science • Web Development • Creative Technology</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="mailto:angelinattmai@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/angelina-mai-190041386/?isSelfProfile=true">
+            LinkedIn
+        </a>
+    </div>
+
+    <p class="copyright">© 2026 Angelina Mai</p>
+</footer>
+
+</body>
+</html>
