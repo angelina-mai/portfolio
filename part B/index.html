@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Angelina Mai's portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<!--HEADER-->
+
+<body>   
+<!-- Used <header> because it introduces my portfolio and provides a brief overview of my background -->
+<header>
+    
+        <h1>Angelina Mai</h1>
+        <p id="dateTime"> </p>
+    
+</header>
+
+<!--NAVIGATION-->
+<div class = "page-layout"> 
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="intro" class="intro">
+            <div class="intro-text">
+                <p class="eyebrow">HELLO, I'M</p>
+                <h2>Angelina Mai</h2>
+                <h3>Computer Science Student</h3>
+
+                <p>
+                    I love the creative side of technology and use
+                    web programming and UI/UX design to bring my
+                    passion for art to life.
+                </p>
+
+                <a href="#projects" class="intro-button">View My Work</a>
+            </div>
+
+            <div class="intro-visual">
+                <div class="intro-box back-box"></div>
+                <div class="intro-box front-box">
+                    <img src="images/headshot.png" alt="Preview of personal portfolio website">
+                </div>
+            </div>
+    </section>
+
+<!--ABOUT-->
+    <!-- Used a section to organize my personal introduction separately from my projects and skills. -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2>About Me</h2>
+
+            <p>
+                I am a Computer Science student who loves the creative
+                side of technology. I use web programming and UI/UX
+                design to bring my passion for art to life.
+            </p>
+
+            <p>
+                I enjoy combining technical skills with creativity to
+                create websites and digital experiences that are both
+                functional and visually engaging.
+            </p>
+
+            <h3>What I Work With</h3>
+
+            <!-- Used <dl> here because I am defining and describing the technologies I use. -->
+            <dl>
+                <dt>HTML</dt>
+                <dd>Used to structure webpages.</dd>
+
+                <dt>CSS</dt>
+                <dd>Used to style and design webpages.</dd>
+
+                <dt>Java</dt>
+                <dd>Used for programming and software development.</dd>
+            </dl>
+        </div>
+        <div class="about-visual">
+            <div class="about-box about-back"></div>
+
+            <div class="about-box about-front">
+                    <img src="images/strawberry cat.webp" alt="Preview of personal portfolio website">
+            </div>
+        </div>
+
+    </section>
+<!--SKILLS-->
+    <section id="skills" class="skills-section">
+
+        <div class="section-heading">
+            <p class="eyebrow">WHAT I KNOW</p>
+            <h2>Skills</h2>
+        </div>
+
+        <div class="skills-box">
+
+            <div class="skill-column">
+                <h3>Web Development</h3>
+
+                
+                <ul>
+                    <li>Web Development
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </li>
+
+                    <li>Programming
+                        <ol>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>Erlang</li>
+                            <li>Clojure</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="skill-column">
+                <h3>Creative Skills</h3>
+
+                <ul>
+                    <li>Touch designer</li>
+                    <li>Digital Art</li>
+                    <li>Procreate</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+<!--PROJECTS-->
+
+    <section id="projects" class="projects-section">
+        <div class="section-heading">
+            <p class="eyebrow">MY WORK</p>
+            <h2>Projects</h2>
+            <p>A collection of my programming and creative work.</p>
+        </div>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <img src="images/portfolio-cover.jpg"alt="Preview of personal portfolio website">
+
+                <div class="project-info">
+                    <p class="project-category">Programming Portfolio</p>
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive portfolio website created using HTML and CSS.</p>
+                    <span class="project-tag">HTML &amp; CSS</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/schedule.jpg" alt="Preview of course schedule builder">
+
+                <div class="project-info">
+                    <p class="project-category">Programming Portfolio</p>
+                    <h3>Schedule Builder</h3>
+                    <p>A web application designed to help students organize their university courses.</p>
+                    <span class="project-tag">Web Development</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/happy 2gheter.jpg"
+                alt="Example of digital illustration artwork">
+
+                <div class="project-info">
+                    <p class="project-category">Art Portfolio</p>
+                    <h3>Digital Illustration</h3>
+                    <p>A collection of digital artwork exploring colour, composition, and visual storytelling.</p>
+                    <span class="project-tag">Illustration</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                    
+                    <img src="images/factory run 1.jpg" alt="Example of creative visual design">
+                
+                <div class="project-info">
+                    <p class="project-category">Art Portfolio</p>
+                    <h3>Creative Design</h3>
+                    <p>Visual design work inspired by my interest in art and digital media.</p>
+                    <span class="project-tag">Visual Design</span>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+<!--CONTACT-->
+    <section id="contact" class="contact-section">
+
+        <div class="contact-intro">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>Let's Connect</h2>
+
+            <p>
+                Have a project idea, creative collaboration, or just want
+                to say hello? Feel free to reach out.
+            </p>
+
+            <div class="contact-details">
+                <p><strong>Email</strong><br>
+                    angelinattmai@gmail.com
+                </p>
+
+                <p><strong>LinkedIn</strong><br>
+                    <a href="https://www.linkedin.com/in/angelina-mai-190041386/?isSelfProfile=true">
+                        Angelina Mai
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Your Name</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Programming Interests</legend>
+
+                <label for="level">Experience Level</label>
+
+                <select id="level" name="level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+
+            <p class="form-label">Programming Skills</p>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="html" name="skills" value="html">
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" id="css" name="skills" value="css">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" id="java" name="skills" value="java">
+                    <label for="java">Java</label>
+
+                    <input type="checkbox" id="python" name="skills" value="python">
+                    <label for="python">Python</label>
+
+                    <input type="checkbox" id="javascript" name="skills" value="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+
+                <p class="form-label">Preferred Project Type</p>
+
+                <div class="radio-group">
+                    <input type="radio" id="web" name="project" value="web">
+                    <label for="web">Web Development</label>
+
+                    <input type="radio" id="software" name="project" value="software">
+                    <label for="software">Software Development</label>
+                </div>
+
+            </fieldset>
+
+            <div class="form-buttons">
+                <button type="submit">Send Message</button>
+                <button type="reset">Reset</button>
+            </div>
+
+                <p id="formMessage" role="status" aria-live="polite"></p>
+            </form>
+        
+        </section>
+    </main>
+</div>
+<!--FOOTER-->
+<footer class="site-footer">
+        <h3>Angelina Mai</h3>
+        <p>Computer Science • Web Development • Creative Technology</p>
+
+    <div class="footer-links">
+        <a href="mailto:angelinattmai@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/angelina-mai-190041386/?isSelfProfile=true">
+            LinkedIn
+        </a>
+        <a href="https://github.com/angelina-mai">Github</a>
+    </div>
+
+</footer>
+
+</body>
+</html>
